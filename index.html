@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Edukasi Sosial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="loginPage" class="container">
+    <h2>Login Edukasi Sosial</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="loginMessage"></p>
+</div>
+
+<!-- MAIN WEBSITE -->
+<div id="mainPage" class="hidden">
+
+    <header>
+        <h1>Edukasi Sosial</h1>
+        <p>Membangun empati, toleransi, dan kerja sama</p>
+    </header>
+
+    <!-- HERO IMAGE -->
+    <section class="hero">
+        <img src="edukasi-sosial.webp" alt="Edukasi Sosial">
+    </section>
+
+    <!-- CONTENT -->
+    <section class="content">
+        <h2>Apa itu Edukasi Sosial?</h2>
+        <p>
+            Edukasi sosial adalah proses pembelajaran yang bertujuan
+            membentuk sikap empati, toleransi, komunikasi, dan kerja sama
+            dalam kehidupan bermasyarakat.
+        </p>
+
+        <h3>Tujuan Edukasi Sosial</h3>
+        <ul>
+            <li>Menghargai perbedaan</li>
+            <li>Membangun empati</li>
+            <li>Meningkatkan kerja sama</li>
+            <li>Menumbuhkan sikap tanggung jawab sosial</li>
+        </ul>
+    </section>
+
+    <!-- LOGOUT -->
+    <footer>
+        <button class="logout" onclick="logout()">Logout</button>
+        <p>© 2025 Edukasi Sosial</p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
